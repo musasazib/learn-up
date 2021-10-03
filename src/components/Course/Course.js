@@ -1,7 +1,6 @@
 import React from 'react';
-import './Courses.css';
 
-const Courses = () => {
+const Course = () => {
     return (
         <div>
             
@@ -9,4 +8,4 @@ const Courses = () => {
     );
 };
 
-export default Courses;
+export default Course;

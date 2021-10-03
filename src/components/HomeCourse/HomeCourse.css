@@ -1,0 +1,14 @@
+.course-img{
+    height: 180px;
+    width: 280px;
+}
+.home-course-container{
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: 5px 10px #f5eded32;
+}
+.home-course-container h4{
+    
+        text-shadow: 2px 2px rgb(241, 203, 203);
+      
+}
