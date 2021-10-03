@@ -1,0 +1,15 @@
+.nav-container{
+    margin-top: 20px;
+    height: 65px;
+    margin-left: 40px;
+}
+nav a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: gray;
+}
+.nav-btn{
+    float: right;
+    letter-spacing: 0.1px;
+    margin: 10px;
+}

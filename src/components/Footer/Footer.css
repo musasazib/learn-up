@@ -1,0 +1,27 @@
+.footer-container{
+    padding-top: 60px;
+    margin-top: 50px;
+    height: 260px;
+    background-color: #052044;
+    text-align: center;
+}
+.footer-container h1{
+    color: white;
+    line-height: 36px;
+    font-size: 30px;
+}
+.footer-container p{
+    color: white;
+}
+.input-field input{
+    height: 60px;
+    width: 650px;
+    border-radius: 10px;
+}
+.input-field button{
+    height: 60px;
+    color: white;
+    background-color: rgb(168, 37, 37);
+    border-radius: 10px;
+    margin: 10px;
+}

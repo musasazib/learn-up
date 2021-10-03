@@ -1,0 +1,29 @@
+.home-container{
+    background-color: rgb(15, 15, 58);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-title{
+    color: white;
+    padding: 30px;
+
+}
+.home-title h1{
+    font-size: 50px;
+    line-height: 1.2;
+}
+.home-title button{
+    border: 1px solid #da0b4e;
+    padding: 10px 20px;
+    background-color: rgb(49, 128, 49);
+    border-radius: 10px;
+}
+.home-title button:hover{
+    background-color: white;
+    color: rgb(44, 107, 44);
+    font-weight: bold;
+}
+.home-img{
+    border-radius: 4rem 0 0 0 !important;
+}
