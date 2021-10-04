@@ -1,0 +1,10 @@
+.courses-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 15px;
+}
+.courses-title{
+    margin: 50px;
+    text-align: center;
+    font-weight: bold;
+}
