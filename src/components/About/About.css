@@ -1,0 +1,29 @@
+.title{
+    margin: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.font-color{
+    color: red;
+}
+.about-text{
+    padding: 20px;
+}
+.about-text h4{
+    font-weight: bold;
+}
+.student-review{
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(245, 238, 238);
+    padding: 20px;
+}
+.student-review img{
+    width: 100px;
+    border-radius: 50%;
+}

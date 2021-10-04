@@ -3,12 +3,13 @@
     width: 280px;
 }
 .home-course-container{
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 10px;
-    box-shadow: 5px 10px #f5eded32;
+    box-shadow: 5px 10px #e6d6d632;
+    margin-bottom: 80px;
+    padding: 10px;
 }
 .home-course-container h4{
     
-        text-shadow: 2px 2px rgb(241, 203, 203);
-      
+    text-shadow: 2px 2px rgb(241, 203, 203);
 }

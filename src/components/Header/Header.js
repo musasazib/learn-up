@@ -14,6 +14,7 @@ const Header = () => {
                 <img src={logo} width="130px" height="30px" alt="" />
                 <NavLink activeStyle={activeStyle} to="/home">Home</NavLink>
                 <NavLink activeStyle={activeStyle} to="/courses">Courses</NavLink>
+                <NavLink activeStyle={activeStyle} to="/features">Features</NavLink>
                 <NavLink activeStyle={activeStyle} to="/about">About</NavLink>
                 
                 <button className="nav-btn">Sign up</button>
