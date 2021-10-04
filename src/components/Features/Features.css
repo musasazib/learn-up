@@ -1,0 +1,24 @@
+.feature-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-text{
+    padding: 120px 20px;
+    background-color: rgb(245, 240, 241);
+    border-radius: 20px;
+}
+.feature-text h3{
+    color: rgb(13, 109, 13);
+}
+.feature-detail{
+    padding: 20px;
+}
+.feature-review{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    background-color: rgb(230, 207, 235);
+    padding: 50px;
+}
