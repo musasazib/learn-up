@@ -6,10 +6,10 @@ import user from '../../images/user-2.jpg';
 const About = () => {
     return (
         <div>
-            <h1 className="title">About Us</h1>
-            <div className="about-container">
-                <div className="about-text">
-                    <h4>Know About <span className="font-color">E-Learn</span> Learning Platform</h4>
+            <h1 className="title fw-bold text-center">About Us</h1>
+            <div className="d-flex align-items-center justify-content-center">
+                <div className="p-5">
+                    <h4 className="fw-bold">Know About <span className="font-color">E-Learn</span> Learning Platform</h4>
                     <br />
                     <h6>Cost Effective</h6>
                     <p>Learned is one of the cost effective learning centres from last decade.</p>
@@ -24,7 +24,7 @@ const About = () => {
                     <img src={aboutImg} alt="" />
                 </div>
             </div>
-            <div className="student-review">
+            <div className="student-review text-center p-5">
                 <small>What People Say?</small>
                 <h3> <span className="font-color">Reviews</span> By Our Success & Top Students</h3>
                 <img src={user} alt="" />
