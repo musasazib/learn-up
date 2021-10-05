@@ -5,12 +5,12 @@ const Features = () => {
     return (
         <div>
             <h1 className="title">Features</h1>
-            <div className="feature-text">
+            <div className="d-flex align-items-center justify-content-center">
                 <div className="header-text">
                     <h3>Learn Adobe CC with our Masterclass</h3>
                     <h6>In this Adobe CC Masterclass, you will learn Photostat, Illustrator, Adobe XD, InDesign & more. Register now.</h6>
                 </div>
-                <div className="feature-detail">
+                <div className="p-5">
                     <h5>Course Description</h5>
                     <p>In this course, you will learn Photostat, Illustrator, Adobe XD, InDesign & more. Also, you will learn how to bring out the best in your photographs with this beginner's course on Adobe Legroom Classic, the photo editing app that's optimized for desktops.</p>
                     <br />
@@ -21,7 +21,7 @@ const Features = () => {
                     <p>You will learn how to master the tools you need with best-in-class training courses to become an expert with the world's best platform for artists and dreamers and many more with us.</p>
                 </div>
             </div>
-            <div className="feature-review">
+            <div className="feature-review d-flex align-items-center justify-content-center">
                 <div>
                     <h5>I love to learn new things and skills has help me a lot to learn more new things and new courses.</h5>
                     <br />
