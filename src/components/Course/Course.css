@@ -1,52 +1,27 @@
 .courses{
-    border: 1px solid lightgray;
-    border-radius: 10px;
-    transition: 1s;
+    border-radius: 10px;    
+    transition: 0.5s;
 }
 .courses:hover{
-    transform: scale(1.05);
-    background-color: lightblue !important;
+    transform: scale(1.02);
+    background-color: lightsalmon !important;
 }
-.courses h5{
-    padding: 10px;
-}
-.courses-img{
-    width: 375px;
-    height: 245px;
-    border-radius: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .course-detail{
-    background-color: rgb(248, 246, 246);
-    padding: 20px;
-}
-.course-detail small{
-    margin-left: 50px;
+    background-color: rgb(245, 244, 244);
 }
 .author-price{
     background-color: rgb(221, 215, 215);
-    display: flex;
-    padding: 10px;
 }
 .author-price h6{
-    margin-left: 130px;
     color: crimson;
-    font-weight: bold;
 }
 .views-color{
     color: brown;
-    font-weight: bold;
 }
 .lessons-color{
     color: green;
-    font-weight: bold;
 }
 .week-color{
     color: blueviolet;
-    font-weight: bold;
-}
-.author{
-    font-weight: bold;
 }
