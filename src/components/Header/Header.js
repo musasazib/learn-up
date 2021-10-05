@@ -21,6 +21,7 @@ const Header = () => {
                 <button className="nav-btn">Signing</button>
                 
             </nav>
+            <hr></hr>
         </div>
     );
 };

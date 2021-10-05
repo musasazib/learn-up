@@ -4,7 +4,7 @@ import img from '../../images/testimonialv4-img.webp';
 const Features = () => {
     return (
         <div>
-            <h1 className="title">Features</h1>
+            <h1 className="title text-center fw-bold">Features</h1>
             <div className="d-flex align-items-center justify-content-center">
                 <div className="header-text">
                     <h3>Learn Adobe CC with our Masterclass</h3>
