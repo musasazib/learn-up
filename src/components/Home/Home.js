@@ -13,7 +13,7 @@ const Home = () => {
     }, [])
     return (
         <div>
-            <div className="home-container">
+            <div className="home-container d-flex align-items-center justify-content-center">
                 <div className="home-title">
                     <h1>Study Beyond The Classroom</h1>
                     <p>Develop your talents by taking courses, earning certificates, and earning degrees from Learn-up world-class universities and companies instructors who are capable of building you.</p>
@@ -23,7 +23,7 @@ const Home = () => {
                     <img className="home-img w-100 img-fluid rounded rounded-lg-right-0 " src={homeImg} alt="" />
                 </div>
             </div>
-            <div className="home-course-title">
+            <div className="home-course-title text-center">
                 <h2>Got & Popular Categories</h2>
                 <Container>
                     <Row xs={2} md={4} className="g-4">
