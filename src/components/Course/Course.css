@@ -1,6 +1,11 @@
 .courses{
     border: 1px solid lightgray;
     border-radius: 10px;
+    transition: 1s;
+}
+.courses:hover{
+    transform: scale(1.05);
+    background-color: lightblue !important;
 }
 .courses h5{
     padding: 10px;
