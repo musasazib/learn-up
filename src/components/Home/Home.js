@@ -12,7 +12,7 @@ const Home = () => {
             .then(data => setHomeCourses(data))
     }, [])
     return (
-        <div>
+        <div className="home">
             <div className="home-container d-flex align-items-center justify-content-center">
                 <div className="home-title">
                     <h1>Study Beyond The Classroom</h1>

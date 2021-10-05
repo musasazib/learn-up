@@ -12,7 +12,7 @@ const Courses = () => {
     }, [])
     return (
         <div>
-            <h1 className="courses-title">Courses</h1>
+            <h1 className="title text-center fw-bold">Courses</h1>
             <Row xs={2} md={4} className="courses-container g-4">
                 {
                     courses.map(course => <Course
