@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Home.css';
 import homeImg from '../../images/h-3.jpg';
 import HomeCourse from '../HomeCourse/HomeCourse';
+import { Container, Row } from 'react-bootstrap';
 
 const Home = () => {
     const [homeCourses, setHomeCourses] = useState([]);
@@ -24,14 +25,19 @@ const Home = () => {
             </div>
             <div className="home-course-title">
                 <h2>Got & Popular Categories</h2>
-                <div className="home-course">
-                    {
-                        homeCourses.map(homeCourse => <HomeCourse
-                            key={homeCourse.id}
-                            homeCourse={homeCourse}
-                        ></HomeCourse>)
-                    }
-                </div>
+                <Container>
+                    <Row xs={2} md={4} className="g-4">
+                        {
+                            homeCourses.map(homeCourse => <HomeCourse
+                                key={homeCourse.id}
+                                homeCourse={homeCourse}
+                            ></HomeCourse>)
+                        }
+                    </Row>
+                </Container>
+                {/* <div className="home-course">
+                    
+                </div> */}
             </div>
         </div>
     );
